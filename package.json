@@ -1,0 +1,24 @@
+{
+  "name": "TestIntlCrash",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "intl": "^1.2.5",
+    "react": "15.4.2",
+    "react-intl": "^2.2.3",
+    "react-native": "facebook/react-native#0623a47ecd3cc7546d6a5581b433388898b017cb"
+  },
+  "devDependencies": {
+    "babel-jest": "18.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "18.1.0",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
